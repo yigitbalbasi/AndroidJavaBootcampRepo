@@ -15,15 +15,15 @@ public class Odev1 {
         boolean dogumGunu = false;
         int maas = 4000;
         boolean medeniDurum = false;
-        String urun_yorum = "on numara ürün";
+        String urun_yorum = "on numara Ã¼rÃ¼n";
 
-        String odemeTarihi = "19 kasım 2022";
+        String odemeTarihi = "19 kasÃ½m 2022";
         boolean odeme = false;
         int siparis_adeti = 156;
         String arabaModeli = "Opel Corsa";
-        String kitapAdi = "İnsan Ne ile Yaşar?";
+        String kitapAdi = "Ãnsan Ne ile YaÃ¾ar?";
 
-        String yayinlanmaTarihi = "19 eylül 2020";
+        String yayinlanmaTarihi = "19 eylÃ¼l 2020";
         double indirimMiktari = 45.9;
         int odaSayisi = 4;
         double enlem = 45.234;
@@ -36,7 +36,7 @@ public class Odev1 {
         double urunPuani = 4.8;
         String resimAdi = "kusResmi";
         String dosyaFormati = "jpg";
-        String renk = "kırmızı";
+        String renk = "kÃ½rmÃ½zÃ½";
         String renk_kodu = "#ff0000";
         String telefon_modeli = "14 pro max";
         double ekran_boyutu = 6.8;
@@ -50,7 +50,7 @@ public class Odev1 {
         int takipKodu = 63544;
         double kuponSuresi = 4;
         int kuponKodu = 6243;
-        String fatura_adresi = "Kadıköy/İstanbul";
+        String fatura_adresi = "KadÃ½kÃ¶y/Ãstanbul";
 
 
     }
