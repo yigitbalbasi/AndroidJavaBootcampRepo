@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_x_y"
+    app:startDestination="@id/mainFragment2">
+
+    <fragment
+        android:id="@+id/mainFragment2"
+        android:name="com.yigitb.odev4.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/maindenXeGecis"
+            app:destination="@id/XFragment"
+            app:popUpTo="@id/mainFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/XFragment"
+        android:name="com.yigitb.odev4.XFragment"
+        android:label="fragment_x"
+        tools:layout="@layout/fragment_x" >
+        <action
+            android:id="@+id/xtenYyeGecis"
+            app:destination="@id/YFragment2"
+            app:popUpTo="@id/XFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/YFragment2"
+        android:name="com.yigitb.odev4.YFragment"
+        android:label="fragment_y"
+        tools:layout="@layout/fragment_y" >
+        <action
+            android:id="@+id/y2denMaineGecis"
+            app:destination="@id/mainFragment2"
+            app:popUpTo="@id/YFragment2"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
